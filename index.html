@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    
+    <!--Font Awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+ 
+ 
+  <body>
+
+   
+      <div class="title">Welcome to the Future</div>
+  
+    <div class="dark-container">
+      <div id="btn-message">Don't like all the colors?</div>
+      <button class="dark-container-btn" id="dark-btn" type ="button">Try dark mode!</button>
+    </div>
+      
+    <div class="app-container">
+
+      <div class="top">
+       <form id="form">
+        <input type="text" class="input" id="input" placeholder=" Enter a Task Name">
+        <button type="submit" id ="btn">Create Task</button>
+       </form>
+       <form class="update-form hide">
+        <div class="update-title">Edit your Task</div>  
+        <div class="update-bottom">
+          <input type="text" id="update-input" name="update-input">
+          <button id="update-btn">Update</button>
+          <i id="close-update" class="fa-solid fa-xmark"></i>
+        </div>
+       </form>
+      </div>
+     
+      <div class="bottom">
+      </div>
+
+    </div>
+
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
